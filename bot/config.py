@@ -73,6 +73,9 @@ class Settings(BaseSettings):
     twilio_auth_token: str = ""
     twilio_phone_number: str = ""
 
+    # Redis (hackathon: call-state/queueing, local Memurai instance)
+    redis_url: str = "redis://127.0.0.1:6379/0"
+
     # CRM
     crm_provider: str = "macdent"
     crm_env_fallback_enabled: bool = False

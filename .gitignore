@@ -33,3 +33,4 @@ docs/partner-onboarding/services.*.json
 frontend-bot/node_modules/
 frontend-bot/.next/
 frontend-bot/out/
+.venv/
